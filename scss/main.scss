@@ -1,0 +1,31 @@
+// Own map for overriding
+@import "variables";
+@import "fonts";
+
+// Include any default variable overrides here (though functions won't be available)
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+@import "global";
+// @import "navbar";
+
+@import "pages/home";
+@import "pages/product-detail";
+// @import "pages/categories";
+// @import "pages/details";
+// @import "pages/cart";
+// @import "pages/auth";
+// @import "pages/success";
+// @import "pages/dashboard";
+
+@import "components/navbar";
+@import "components/card_categories";
+@import "components/card_products";
+@import "components/card_arrival";
+// @import "components/categories";
+// @import "components/products";
+// @import "components/card";
+// @import "components/card_list";
+// @import "components/card_dashboard";
+
+// @import "transitions/slide-fade";
